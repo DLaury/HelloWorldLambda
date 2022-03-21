@@ -133,7 +133,8 @@ def handleRequest(input: InputStream, output: OutputStream, context: Context): U
   -  `compile`
 - Assemble jar
   -  `assembly`
-- Publish to AWS Lambda
+- Publish jar to AWS Lambda
+  -  located at target/scala-2.13/Hello-assembly-1.0.jar
 - Use with hello-world template with following JSON
 ```JSON
 {
