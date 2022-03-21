@@ -1,5 +1,5 @@
 # HelloWorldLambda
-Lambda function that accesses JSON and prints out a greeting using payload
+Lambda function written in Scala that accesses JSON and prints out a greeting using payload
 
 ### Basic Hello World with Test with sbt
 - Create directory and put build.sbt file in directory
